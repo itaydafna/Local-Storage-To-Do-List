@@ -1,0 +1,104 @@
+html {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #2F2F2F;
+    color: #eee;
+    font-family: sans-serif;
+    margin: 0;
+    z-index: 1;
+}
+
+.btn {
+    background: #5cb85c;
+    border-radius: 5px;
+    border: 1px solid #4cae4c;
+    box-shadow: 0 0 10px #000;
+    color: #eee;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    text-align: center;
+    text-shadow: 0 0 3px #333;
+}
+
+.btn:hover {
+    background-color: #47a447;
+    border-color: #398439;
+    box-shadow: 0 0 20px #111;
+    color: #eee;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.transition {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.hidden {
+    display: none;
+}
+
+/* =================================================
+   Temp CSS
+   ================================================= */
+
+main {
+    margin: auto;
+    padding: 120px 40px;
+    max-width: 600px;
+    min-width: 400px;
+    width: auto;
+}
+
+main h1 {
+    color: #5cb85c;
+    text-shadow: 0 0 10px #111;
+}
+
+.todos {
+    border: 1px solid #000;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 0 10px #111;
+}
+
+.todos li {
+    background: #ccc;
+    border-bottom: 1px solid #666;
+    border-left: 4px solid #666;
+    border-right: 4px solid #666;
+    border-top: 1px solid #eee;
+    color: #666;
+    font-weight: bold;
+    height: 40px;
+    list-style: none;
+    outline: 0;
+    padding: 10px;
+    padding-right: 35px;
+    position: relative;
+    text-shadow: 0 0 1px #eee;
+}
+
+.todos li:focus {
+    border-left: 4px solid #000;
+    border-right: 4px solid #000;
+    color: #000;
+    cursor: text;
+    outline: 0;
+}
